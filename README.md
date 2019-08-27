@@ -1,68 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), take a look at that README first.
 
-## Available Scripts
+# React Fundamentals
 
-In the project directory, you can run:
+A self guided React Introduction for new developers at Church Community Builder. There are many ways to follow this guide but one good way is to choose an “app” or “product” you would like to make and use that as the goal throughout this guide. Nothing too complicated, but for an example a todo app is a great idea to create while following this guide. Which ever idea you choose just make the most simple version of it starting with create-react-app and slowly add concepts as you work through this guide. Each step of this guide has a general goal, materials to help you learn and some practical examples. Use these steps to add features to your app with the goal of learning the skill.
 
-### `npm start`
+## Prerequisites
+Before picking up React, you should have a good foundation in vanilla front end web development, and a couple generally development tools and concepts.   Here are some specifics you’ll need to be comfortable with:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. HTML
+2. CSS
+3. ES6 JavaScript.
+4. Tools of the trade:  npm, git (e.g. GitHub), and editors (e.g. VSCode)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Example Resources to get you there:
 
-### `npm test`
+- CodeAcademy - Learn CSS
+- Code Academy - Introduction to HTML
+- Code Academy - Web Development
+- Udemy - Learn Web Development Basics
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting started with React
 
-### `npm run build`
+### Goal
+Grasp the fundamentals of React and create a simple react app (with no persistence or server side)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Initial Setup
+To get you started we’ll give you a repo that we’ve created with create-react-app and github actions as the ci/cd system to give you an idea of how a react app gets built and deployed in production. You can use this repo through the rest of this plan.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### Materials
+- React official documentation by React
+- Beginners guide to React by Kent C. Dodds
+- Fundamentals of React by Samer Buna
+- Code Academy - Web Development covers some React Basics
+- React Official tutorial by React
+- Fetching API with React.js by Ethan Jarrell
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Examples
+- Simple Todo App
+- Calculator
+- Attendance Counter
+- Form With Validation
+- Movie Database
 
-### `npm run eject`
+## React Router
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Goal
+Understand the concept of Single Page Apps and how to use React Router to create one.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Materials
+- React Router tutorial by Paul Sherman
+- React Router and intro to SPA by Learn Code Academy
+- Routing React apps by Scotch.io
+- React Router complete guide by React Training
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Examples
+- Seperate pages for editing/creating
+- history view
+- profile page
+- detail page
 
-## Learn More
+## Redux
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Goal
+Redux is a JavaScript library developed for maintaining application states. When you are building a complex application, it will add overhead to manage states across components. Redux helps you store all your states in a single source. And of course, React plays well with Redux :)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Materials
+- Redux tutorial by Learn Code Academy
+- Redux tutorial for beginners by Valentino Gagliardi
+- React Redux by CSS Tricks
+- These tutorials are more than enough to getting started with Redux. However, I cannot resist mentioning the below tutorial too. It’s worth it :)
+- Getting started with Redux by Dan Abramov
+- reselect
+- redux-thunk
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Examples
+- Move your react component state into a global redux store
+- use selectors to optimize and reuse getting parts of state
+- store and normalize api results to be used by multiple components
+- move api calls into thunks
