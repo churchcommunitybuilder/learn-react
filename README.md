@@ -17,7 +17,7 @@ Example Resources to get you there:
 - CodeAcademy - Learn CSS
 - Code Academy - Introduction to HTML
 - Code Academy - Web Development
-- Udemy - Learn Web Development Basics
+- Udemy - [Learn Web Development Basics][1]
 
 ## Getting started with React
 
@@ -28,12 +28,12 @@ Grasp the fundamentals of React and create a simple react app (with no persisten
 To get you started we’ll give you a repo that we’ve created with create-react-app and github actions as the ci/cd system to give you an idea of how a react app gets built and deployed in production. You can use this repo through the rest of this plan.
 
 ### Materials
-- React official documentation by React
-- Beginners guide to React by Kent C. Dodds
-- Fundamentals of React by Samer Buna
-- Code Academy - Web Development covers some React Basics
-- React Official tutorial by React
-- Fetching API with React.js by Ethan Jarrell
+- [React official documentation][2]
+- [Beginners guide to React][3] by Kent C. Dodds
+- [Fundamentals of React][4] by Samer Buna
+- [Code Academy][5] - Web Development covers some React Basics
+- [React Official tutorial][6]
+- [Fetching API with React.js][7] by Ethan Jarrell
 
 ### Examples
 - Simple Todo App
@@ -48,10 +48,10 @@ To get you started we’ll give you a repo that we’ve created with create-reac
 Understand the concept of Single Page Apps and how to use React Router to create one.
 
 ### Materials
-- React Router tutorial by Paul Sherman
-- React Router and intro to SPA by Learn Code Academy
-- Routing React apps by Scotch.io
-- React Router complete guide by React Training
+- [React Router tutorial][8] by Paul Sherman
+- [React Router and intro to SPA][9] by Learn Code Academy
+- [Routing React apps][10] by Scotch.io
+- [React Router complete guide][11] by React Training
 
 
 ### Examples
@@ -66,16 +66,33 @@ Understand the concept of Single Page Apps and how to use React Router to create
 Redux is a JavaScript library developed for maintaining application states. When you are building a complex application, it will add overhead to manage states across components. Redux helps you store all your states in a single source. And of course, React plays well with Redux :)
 
 ### Materials
-- Redux tutorial by Learn Code Academy
-- Redux tutorial for beginners by Valentino Gagliardi
-- React Redux by CSS Tricks
-- These tutorials are more than enough to getting started with Redux. However, I cannot resist mentioning the below tutorial too. It’s worth it :)
-- Getting started with Redux by Dan Abramov
-- reselect
-- redux-thunk
+- [Redux tutorial][12] by Learn Code Academy
+- [Redux tutorial for beginners][13] by Valentino Gagliardi
+- [React Redux][14] by CSS Tricks
+- [Getting started with Redux][15] by Dan Abramov
+- [reselect][16]
+- [redux-thunk][17]
 
 ### Examples
 - Move your react component state into a global redux store
 - use selectors to optimize and reuse getting parts of state
 - store and normalize api results to be used by multiple components
 - move api calls into thunks
+
+[1]: https://www.udemy.com/course/learn-web-development-basics-a-beginners-introduction/#reviews
+[2]: https://reactjs.org/docs/hello-world.html
+[3]: https://egghead.io/courses/the-beginner-s-guide-to-reactjs
+[4]: https://www.freecodecamp.org/news/all-the-fundamental-react-js-concepts-jammed-into-this-single-medium-article-c83f9b53eac2/
+[5]: https://www.codecademy.com/learn/react-101
+[6]: https://reactjs.org/tutorial/tutorial.html
+[7]: https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2
+[8]: https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
+[9]: https://www.youtube.com/watch?v=1iAG6h9ff5s
+[10]: https://scotch.io/tutorials/routing-react-apps-the-complete-guide
+[11]: https://reacttraining.com/react-router/web/example/basic
+[12]: https://www.youtube.com/playlist?list=PLoYCgNOIyGADILc3iUJzygCqC8Tt3bRXt
+[13]: https://dev.to/valentinogagliardi/react-redux-tutorial-for-beginners-learning-redux-in-2018-13hj
+[14]: https://css-tricks.com/learning-react-redux/
+[15]: https://egghead.io/courses/getting-started-with-redux
+[16]: https://github.com/reduxjs/reselect
+[17]: https://github.com/reduxjs/redux-thunk
