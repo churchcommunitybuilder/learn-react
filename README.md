@@ -77,7 +77,7 @@ Redux is a JavaScript library developed for maintaining application states. When
 - Move your react component state into a global redux store
 - use selectors to optimize and reuse getting parts of state
 - store and normalize api results to be used by multiple components
-- move api calls into thunks
+- move your api calls into thunks
 
 [1]: https://www.udemy.com/course/learn-web-development-basics-a-beginners-introduction/#reviews
 [2]: https://reactjs.org/docs/hello-world.html
